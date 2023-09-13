@@ -16,12 +16,14 @@ function ListGroup() {
   return (
     <>
       <div style={textAlign}>List</div>
-      <ul style={textAlign} className="list-group">
 
+
+      
+      <ul style={textAlign} className="list-group">
+        
         {countries.map((country) => (
           <li key={country.name.common}>{country.name.common}</li>
         ))}
-        
       </ul>
     </>
   );
